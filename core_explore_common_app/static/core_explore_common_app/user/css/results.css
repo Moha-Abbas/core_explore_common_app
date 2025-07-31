@@ -28,7 +28,7 @@ span.expand {
 }
 
 .result-title:hover {
-    color: #37c0fb;
+    color: #287371;
 }
 
 .tab-selector td {
@@ -122,6 +122,10 @@ span.expand {
     /*color: #007aa7;*/
     color: #3CACA8;
     cursor: pointer;
+}
+
+.permissions-icon:hover {
+	 color: #287371;
 }
 
 .data-info-right-container {
