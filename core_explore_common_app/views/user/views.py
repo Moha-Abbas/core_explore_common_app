@@ -74,12 +74,21 @@ class ResultsView(View):
                     "path": f"core_explore_common_app/user/js/sorting_{settings.SORTING_DISPLAY_TYPE}_criteria.js",
                     "is_raw": False,
                 },
+                {
+                    "path": f"core_explore_common_app/user/js/downloadalldata.js",
+                    "is_raw": False,
+                },
+                {
+                    "path": "core_main_app/common/js/wait/waiting.js",
+                    "is_raw": False,
+                },
             ],
             "css": [
                 "core_main_app/common/css/XMLTree.css",
                 "core_explore_common_app/user/css/query_result.css",
                 "core_explore_common_app/user/css/results.css",
                 "core_explore_common_app/user/css/toggle.css",
+                "core_main_app/common/css/wait/waiting.css"
             ],
         }
 
